@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fffaf3;
+  --foreground: #25221f;
+  --accent: #c7462d;
+  --accent-dark: #8f2d20;
+  --muted: #756b61;
+  --surface: #ffffff;
+  --border: #eadfd3;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Georgia, "Times New Roman", serif;
+}
+
+button, input, textarea, select { font: inherit; }
